@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Resume</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to a CSS file for styling -->
+</head>
+<body>
+    <header>
+        <div class="site-name">
+            <h1>My Online Resume</h1>
+        </div>
+    
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself here.</p>
+        </section>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Describe your work experience and qualifications here.</p>
+        </section>
 
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p> product descriptions.</p>
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
-    <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
+          </head>
+          <body>
+              <h1>Check out this Tesla!</h1>
+              <img src="tesla.jpg" alt="Tesla Car">
+          </body>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>Feel free to get in touch with me using the form below.</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Oghenetega Tebite" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Tenitega488@gmail.com" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+</html>
+
       */
       body {
         font-family: Arial, Helvetica, sans-serif;
